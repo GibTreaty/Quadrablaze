@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 4b837004d39508247826fc4e97ea76bd
+labels:
+- Subscribe
+- Upload
+- Browse
+- Plugin
+- Simple
+- Easy
+- Workshop
+- Steamworks
+- Steam
+- Leaderboard
+- Leaderboards
+- Score
+- Highscores
+- Submit
+timeCreated: 1487961066
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

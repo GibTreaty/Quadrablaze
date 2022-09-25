@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 41f9909e1b054464089d158f74156e65
+labels:
+- API
+- Alpha
+- Beta
+- Board
+- Bug
+- Bugs
+- Card
+- Debug
+- Debugging
+- Integration
+- List
+- Screenshot
+- Screenshots
+- Tracking
+- Trello
+timeCreated: 1492544850
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

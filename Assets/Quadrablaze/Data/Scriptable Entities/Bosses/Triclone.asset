@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94cdeadc91dd16a459ab4f208a0e2b0a, type: 3}
+  m_Name: Triclone
+  m_EditorClassIdentifier: 
+  _originalGameObject: {fileID: 1287744564434918, guid: 113e31ec7a0dcdf4daca54ddfc4d5b2c,
+    type: 3}
+  _originalUpgradeSet: {fileID: 0}
+  _size: 6
+  _movementInterruptLength: 1
+  _healthSlots:
+  - baseHealth: 5
+    levelModifier: 0.25
+  - baseHealth: 5
+    levelModifier: 0.25
+  - baseHealth: 5
+    levelModifier: 0.25
+  _subBoss: 0

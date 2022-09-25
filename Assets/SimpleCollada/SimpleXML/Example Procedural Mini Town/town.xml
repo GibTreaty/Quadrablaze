@@ -1,0 +1,58 @@
+<town>
+	<object name="house1">
+		<position>"-5,0,1"</position>
+		<scale>"1,1,1"</scale>
+		<archelements>
+			<archelem type="wall">
+				<color>"#ffa0a0"</color>
+				<offset>0,1,0</offset>
+			</archelem>
+			<archelem type="roof">
+				<color>"#f01010"</color>
+				<offset>0,2.15,0</offset>
+			</archelem>
+		</archelements>
+	</object>
+	<object name="house2">
+		<position>"5,0,1"</position>
+		<scale>"1.5,1,1.5"</scale>
+		<archelements>
+			<archelem type="wall">
+				<color>#a0ffff</color>
+				<offset>0,1,0</offset>
+			</archelem>
+			<archelem type="roof">
+				<color>#10f010</color>
+				<offset>0,2.15,0</offset>
+			</archelem>
+		</archelements>
+	</object>
+	<object name="house3">
+		<position>"-7,0,11"</position>
+		<scale>"2,2,1.5"</scale>
+		<archelements>
+			<archelem type="wall">
+				<color>#ffffff</color>
+				<offset>0,1,0</offset>
+			</archelem>
+			<archelem type="roof">
+				<color>#909090</color>
+				<offset>0,2.15,0</offset>
+			</archelem>
+		</archelements>
+	</object>
+	<object name="house4">
+		<position>"6,0,11"</position>
+		<scale>"1.5,1.5,1.5"</scale>
+		<archelements>
+			<archelem type="wall">
+				<color>#a0a0ff</color>
+				<offset>0,1,0</offset>
+			</archelem>
+			<archelem type="roof">
+				<color>#1010f0</color>
+				<offset>0,2.15,0</offset>
+			</archelem>
+		</archelements>
+	</object>
+</town>

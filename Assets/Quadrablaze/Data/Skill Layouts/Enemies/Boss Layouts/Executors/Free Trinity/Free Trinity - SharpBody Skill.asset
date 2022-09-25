@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908f65a8af9e98d44b179565f38cf170, type: 3}
+  m_Name: Free Trinity - SharpBody Skill
+  m_EditorClassIdentifier: 
+  _assignedSkillLayout: {fileID: 0}
+  _assignedUpgradeSet: {fileID: 0}
+  _skillLayoutElementIndex: -1
+  _damage: 1
+  _damageMultiplier: 1
+  _damageLevelMultiplier: 0.25
+  _damageLevelCurve: {fileID: 11400000, guid: 15a4bd0fb95ff5e48bfd86ff06d917f5, type: 2}
+  _hitDelay: 1
+  _force: 500
+  _nonRigidbodyForce: 50
+  _trigger: {fileID: 0}
+  _hitMask:
+    serializedVersion: 2
+    m_Bits: 131840

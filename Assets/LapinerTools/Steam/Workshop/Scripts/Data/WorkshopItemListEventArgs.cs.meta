@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8ea36f5e701e1d442a1a84d8a5c57ad9
+labels:
+- Subscribe
+- Upload
+- Browse
+- Plugin
+- Simple
+- Easy
+- Workshop
+- Steamworks
+- Steam
+timeCreated: 1487933561
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

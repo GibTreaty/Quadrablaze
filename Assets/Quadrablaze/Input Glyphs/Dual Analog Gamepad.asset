@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3bdcb0329c421c46b2a9242337d6aaa, type: 3}
+  m_Name: Dual Analog Gamepad
+  m_EditorClassIdentifier: 
+  _deviceType: 2
+  _joystick: {fileID: 0}
+  _joystickTemplate: {fileID: 11400000, guid: 91b946f6f6823f4469dbe63db04db904, type: 2}
+  _buttonGlyphs:
+  - name: Left Stick X
+    elementIdentifierId: 0
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: f5a04344d53f51b4e84ecf28a75af577, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Left Stick Y
+    elementIdentifierId: 1
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: f5a04344d53f51b4e84ecf28a75af577, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Right Stick X
+    elementIdentifierId: 2
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: c4b692c2e9e639042aa4f2300642b27b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Right Stick Y
+    elementIdentifierId: 3
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: c4b692c2e9e639042aa4f2300642b27b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Action Bottom Row 1
+    elementIdentifierId: 4
+    alternateElementIdentifierNames:
+    - A
+    - Cross
+    - Button 3
+    icon: {fileID: 21300000, guid: 519b58d8be054044396e094c936ee2b2, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Action Bottom Row 2
+    elementIdentifierId: 5
+    alternateElementIdentifierNames:
+    - B
+    - Circle
+    - Button 2
+    icon: {fileID: 21300000, guid: 3295ccee0a674d24e8dd9975474a7b31, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Action Bottom Row 3
+    elementIdentifierId: 6
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 315ef38939c6b26448b60d489885e1fb, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Action Top Row 1
+    elementIdentifierId: 7
+    alternateElementIdentifierNames:
+    - X
+    - Square
+    - Button 4
+    icon: {fileID: 21300000, guid: 062880c6644f89f41981e522715ebed2, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Action Top Row 2
+    elementIdentifierId: 8
+    alternateElementIdentifierNames:
+    - Y
+    - Triangle
+    - Button 1
+    icon: {fileID: 21300000, guid: 0791386d8438d8d479f49765fa5b681f, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Action Top Row 3
+    elementIdentifierId: 9
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 03db4456c31fd474e810e7697467ad97, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Left Shoulder 1
+    elementIdentifierId: 10
+    alternateElementIdentifierNames:
+    - Left Shoulder
+    - LB
+    - L1
+    icon: {fileID: 21300000, guid: 2648bcc725f9fda478a2bfa92836020e, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Left Shoulder 2
+    elementIdentifierId: 11
+    alternateElementIdentifierNames:
+    - Left Trigger
+    - LT
+    - L2
+    icon: {fileID: 21300000, guid: 226bd537fdcf7a44f932a4bdfcf649af, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Right Shoulder 1
+    elementIdentifierId: 12
+    alternateElementIdentifierNames:
+    - Right Shoulder
+    - RB
+    - R1
+    icon: {fileID: 21300000, guid: 78c2a427d71d60d4fb764515290331cc, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Right Shoulder 2
+    elementIdentifierId: 13
+    alternateElementIdentifierNames:
+    - Right Trigger
+    - RT
+    - R2
+    icon: {fileID: 21300000, guid: 6376ee6023698af429421699904d27c8, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Center 1
+    elementIdentifierId: 14
+    alternateElementIdentifierNames:
+    - Select
+    - Back
+    - View
+    - Share
+    icon: {fileID: 21300000, guid: 51bd16bfe0d7ad946b35328f64f3cc23, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Center 2
+    elementIdentifierId: 15
+    alternateElementIdentifierNames:
+    - Start
+    - Menu
+    - Options
+    icon: {fileID: 21300000, guid: 6bcc08ad080dac942a549edd19f5c9aa, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Center 3
+    elementIdentifierId: 16
+    alternateElementIdentifierNames:
+    - Guide
+    - PS Button
+    - Logitech
+    icon: {fileID: 21300000, guid: 129e8175b0f6e694fb889aeafa177acc, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Left Stick Button
+    elementIdentifierId: 17
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: f5a04344d53f51b4e84ecf28a75af577, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Right Stick Button
+    elementIdentifierId: 18
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: c4b692c2e9e639042aa4f2300642b27b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: D-Pad Up
+    elementIdentifierId: 19
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 502d4a309bfaf6e41a66fcda3e4b884e, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: D-Pad Right
+    elementIdentifierId: 20
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 74651f8cada111d47ba57206ae21209c, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: D-Pad Down
+    elementIdentifierId: 21
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: a1c8260a345f01e46837c289cec136e9, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: D-Pad Left
+    elementIdentifierId: 22
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 5e6f99fa52936544e9dc0df1c933c493, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}

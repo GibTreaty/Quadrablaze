@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 46ba2d8b10b55bb449515a9ce4ffba83
+timeCreated: 1496879454
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - defaultPlayerMesh: {fileID: 1394092810585914, guid: a2b8f10f39f3b224eaabde20f8fb3b58,
+      type: 2}
+  - playerShell: {fileID: 1144791415734872, guid: e691c32b7d8eda74e891fb46ad6be03e,
+      type: 2}
+  - weaponUpgrades: {instanceID: 0}
+  - jetParticlePrefab: {fileID: 1920104166587270, guid: fc368b88d79e2ee4985858c9dfeaf972,
+      type: 2}
+  - recoilBarPrefab: {fileID: 1405386973155372, guid: 58f81927e8180a7439f0d2d4c3ef01ed,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

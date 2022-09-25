@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892da3fe25402ad469e1b9f3b7abee8b, type: 3}
+  m_Name: Skill Icon List
+  m_EditorClassIdentifier: 
+  _skillIconList:
+  - _name: Dash
+    _icon: {fileID: 21300000, guid: 2d0f902231166314fa0dc3d7ffad81a7, type: 3}
+  - _name: Shockwave
+    _icon: {fileID: 21300000, guid: d5c8d9455d34969499ed741f087fbd75, type: 3}
+  - _name: SharpBody
+    _icon: {fileID: 21300000, guid: 0b4ba62ae24ff074d8c75e43d12da96d, type: 3}
+  - _name: Shield
+    _icon: {fileID: 21300000, guid: ada777ba8b4223748a32c15c9c2e02c0, type: 3}
+  - _name: Blaze
+    _icon: {fileID: 21300000, guid: 540136e4a6745cb4cb184f1d749049b7, type: 3}
+  - _name: Turret
+    _icon: {fileID: 21300000, guid: bbd24ca7b323ee34eacddff702784dad, type: 3}
+  - _name: Respawn
+    _icon: {fileID: 21300000, guid: 3407e8b60bf00ad4f9d7c1633ce9ac2d, type: 3}

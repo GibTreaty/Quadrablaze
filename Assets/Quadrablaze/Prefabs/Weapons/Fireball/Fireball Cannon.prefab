@@ -1,0 +1,710 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &105096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 469076}
+  - component: {fileID: 11444704}
+  - component: {fileID: 114000013692209230}
+  m_Layer: 0
+  m_Name: Fireball Cannon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &138570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 498470}
+  - component: {fileID: 11471134}
+  - component: {fileID: 11480344}
+  - component: {fileID: 8213122}
+  - component: {fileID: 11470716}
+  - component: {fileID: 11456412}
+  - component: {fileID: 11465412}
+  - component: {fileID: 11487638}
+  - component: {fileID: 114000011383326046}
+  m_Layer: 0
+  m_Name: Barrel Center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469076
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 498470}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &498470
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138570}
+  m_LocalRotation: {x: -0.00000029802322, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.000000004999811, y: 0.00000035698443, z: 0.53284353}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 469076}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &8213122
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138570}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24323234, guid: afcf984faeefc9e4c9911665b22c96bf,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 4d6d816408e48e7428e863203522508f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 10
+  MaxDistance: 50
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11444704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce61fedb0c4f4b42b1c4c2ebfab8583, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _weaponProperties:
+  - _displayName: Damage
+    _target: {fileID: 11456412}
+    _propertyName: Damage
+  - _displayName: Rate of Fire
+    _target: {fileID: 11471134}
+    _propertyName: TotalDelay
+  - _displayName: Projectile Speed
+    _target: {fileID: 11471134}
+    _propertyName: ForwardSpeed
+  - _displayName: Recoil
+    _target: {fileID: 11470716}
+    _propertyName: Recoil
+--- !u!114 &11456412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94eac4613cd2fe94686b1505ea70d9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damage: 1
+  _damageMultiplier: 1
+--- !u!114 &11465412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 921b36fb3bcfb6443bbfa683b00f6f85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _poolName: Projectile
+  _hideSpawnedObjects: 0
+  _poolGenPrefabs:
+  - _active: 1
+    _id: 0
+    _weight: 0
+    _prefab: {fileID: 171918, guid: 3cf2f3555e9953c429e20fa162c464cb, type: 2}
+    _poolSize: 6
+    _canExpand: 0
+    _initializationType: 0
+    _timeToDespawn: 0
+    _reuseSpawned: 0
+  _onPool:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: YounGenTech.PoolGen.PoolManager+PoolEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  _onSpawn:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: YounGenTech.PoolGen.PoolManager+PoolEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  _onDespawn:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: YounGenTech.PoolGen.PoolManager+PoolEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &11470716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f381bac92d94b2439b7a7cd73b62a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _minAccuracy: {x: 0, y: 0, z: 0}
+  _maxAccuracy: {x: 4, y: 0, z: 0}
+  _recoil: 0.075
+  _accuracyRegenRate: 1
+  _accuracyRegenTime: 0
+  _regenDelay: 0.1
+  _regenDelayTime: 0
+  OnAccuracyChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11471134}
+        m_MethodName: set_RandomForce
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Vector3Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnAccurate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnCompletelyInaccurate:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &11471134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23926fa44bd941478cda64827772aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onWeaponShoot:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11480344}
+        m_MethodName: ShakeCapped
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 6
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8213122}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11470716}
+        m_MethodName: AddToInaccuracy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: YounGenTech.EnergyBasedObjects.ObjectShootingPoint+ShootingEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  onWeaponLoad:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: YounGenTech.EnergyBasedObjects.ObjectShootingPoint+ShootingEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  autoShoot: 0
+  autoLoadOnShoot: 1
+  autoLoad: 0
+  shootDelay: 0.5
+  loadLimit: 1
+  loadCount: 0
+  loadDelay: 0
+  minLoadCountToShoot: 0
+  shootOnLoadTimerZero: 1
+  resetLoadTimeOnShoot: 0
+  pushProjectiles: []
+  force: {x: 0, y: 0, z: 15}
+  randomForce: {x: 4, y: 0, z: 0}
+  forceMode: 2
+  multiplyDeltaTime: 0
+  useForceCurve: 0
+  forceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pushAtWorldPoint: 0
+  worldPushPoint: {x: 0, y: 0, z: 0}
+  useExplosionForce: 0
+  implosion: 0
+  explosionRadius: Infinity
+  notKinematicOnShoot: 0
+  unparentOnShoot: 0
+  spawnThisObject: {fileID: 0}
+  spawnAmount: 1
+  isKinematicOnSpawn: 0
+  parentOnSpawn: 0
+  parentTo: {fileID: 0}
+  spawnOffsets: []
+--- !u!114 &11480344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c87551e1edf4174d9fce3a64863c391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11487638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04a8e1353a9d874ca3a18df33c13415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _poolManager: {fileID: 0}
+  _findPoolOnAwake: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: _poolGenPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OnPooled.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponLoad.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OnAccuracyChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponLoad.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ProjectileIgnoreCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponLoad.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: force.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShakeCapped
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11480344}
+    - target: {fileID: 0}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24323234, guid: afcf984faeefc9e4c9911665b22c96bf,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4d6d816408e48e7428e863203522508f, type: 3}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8213122}
+    - target: {fileID: 0}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: spawnThisObject
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: randomForce.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: shootDelay
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Volume
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 11470716}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: AddToInaccuracy
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: onWeaponShoot.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OnAccuracyChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11471134}
+    - target: {fileID: 0}
+      propertyPath: OnAccuracyChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_RandomForce
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OnAccuracyChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OnAccuracyChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _toAccuracy.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _inaccuracyEachShot
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _cooldownSpeed
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[0]._target
+      value: 
+      objectReference: {fileID: 11456412}
+    - target: {fileID: 0}
+      propertyPath: _damage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[0]._propertyName
+      value: Damage
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[1]._target
+      value: 
+      objectReference: {fileID: 11471134}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[1]._propertyName
+      value: TotalDelay
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[2]._target
+      value: 
+      objectReference: {fileID: 11456412}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[2]._propertyName
+      value: ForwardSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[3]._target
+      value: 
+      objectReference: {fileID: 11470716}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[3]._propertyName
+      value: Recoil
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[0]._displayName
+      value: Damage
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[1]._displayName
+      value: Rate of Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[2]._displayName
+      value: Projectile Speed
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _weaponProperties.Array.data[3]._displayName
+      value: Recoil
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _poolName
+      value: Projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _poolGenPrefabs.Array.data[0]._prefab
+      value: 
+      objectReference: {fileID: 171918, guid: 3cf2f3555e9953c429e20fa162c464cb, type: 2}
+    - target: {fileID: 0}
+      propertyPath: _poolGenPrefabs.Array.data[0]._active
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _poolGenPrefabs.Array.data[0]._poolAmountOnStart
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _poolGenPrefabs.Array.data[0]._reuseUnpooled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _poolGenPrefabs.Array.data[0]._timeToKeep
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _maxAccuracy.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _regenDelay
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OnPooled.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11456412}
+    - target: {fileID: 0}
+      propertyPath: OnPooled.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetDamageOnObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OnPooled.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OnPooled.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _recoil
+      value: 0.075
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 105096}
+  m_IsPrefabParent: 1
+--- !u!114 &114000011383326046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075883fac05c7c84d8186216102a4fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _changePause: 1
+  _changeSpatial: 1
+--- !u!114 &114000013692209230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4bd5ac2daad6447bc3b095bc16abac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _poolManagers: []

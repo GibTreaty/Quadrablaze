@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efa5fe275ad91b41aef3eba8327b420, type: 3}
+  m_Name: UI Sound Database
+  m_EditorClassIdentifier: 
+  _selectableEnter: {fileID: 8300000, guid: 7d5daa3821a6d5e49a74fbca4fbd2ab8, type: 3}
+  _selectableExit: {fileID: 0}
+  _selectableDown: {fileID: 0}
+  _selectableUp: {fileID: 0}
+  _selectableSelect: {fileID: 8300000, guid: a94e5d9e578a235408d8cd4c60f8af17, type: 3}
+  _selectableSubmit: {fileID: 8300000, guid: a94e5d9e578a235408d8cd4c60f8af17, type: 3}
+  _selectableScroll: {fileID: 0}
+  _selectableMove: {fileID: 8300000, guid: 7d5daa3821a6d5e49a74fbca4fbd2ab8, type: 3}

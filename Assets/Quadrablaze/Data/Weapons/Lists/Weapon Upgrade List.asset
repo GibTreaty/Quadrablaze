@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c15cb74b6641edc4a825bdbd0a3f7962, type: 3}
+  m_Name: Weapon Upgrade List
+  m_EditorClassIdentifier: 
+  _weapons:
+  - {fileID: 105096, guid: 5f37b05d9cc16204a83dc70cdf7cbca6, type: 3}
+  - {fileID: 105096, guid: d21c553bdb10bce42b2d8b0a48bd3720, type: 3}
+  - {fileID: 105096, guid: 7cf55c24d305bd8418e9624198db33ef, type: 3}
+  - {fileID: 105096, guid: e1191a5016c3c454ea4bc9717bae38b2, type: 3}
+  - {fileID: 105096, guid: bc64737a49ff9204b99f5e321d014c2d, type: 3}
+  - {fileID: 1000014248881776, guid: f2249276930129e44a0cadbb3db27337, type: 3}
+  - {fileID: 1000014248881776, guid: c2450f6fa81f90d47b0f68c8ca54c22d, type: 3}
+  - {fileID: 1000014248881776, guid: b5561377671e5c146a12a0bb29b96380, type: 3}
+  - {fileID: 1000014248881776, guid: 730f36d9ce53c5a4bbc8f5c7584683b3, type: 3}

@@ -1,0 +1,27 @@
+Dash - Done
+(Higher leveled dashes could have you warp through enemies?)
+
+Sharp Body (damages enemies that touch you) - Done
+1) Damages enemies that touch you
+2) Pushes away enemies that touch you
+3) Enemies that touch you will become infected and damage other enemies that they touch
+4) Immobilize enemy (Arna57)
+
+Shockwave - Done
+
+Invisibility
+
+Shield - Each level increases its health
+
+Wololo - 
+
+Blaze - Shoots a long stream of fire out of each jet and spins the ship, damaging all enemies nearby. - Done
+Auto Turret - Place a turret that shoots at your enemies. Leveling up will either give you more turrets or it should make the one turret become more powerful
+
+Popup Knives - Short-range insta-kill attack
+
+Nuke - Destroys all active enemies and the player. If all previously active enemies die, the player will live.
+
+Drone Strike - Sends in small drones that fight with the player
+
+Teleport - Teleports, duh

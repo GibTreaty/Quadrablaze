@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b3bdcb0329c421c46b2a9242337d6aaa
+timeCreated: 1480683188
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - _controllerDataFile: {fileID: 11400000, guid: d21d2b20df8369642b76aafbb2576ba7,
+      type: 2}
+  - _joystick: {instanceID: 0}
+  - _joystickTemplate: {fileID: 11400000, guid: 91b946f6f6823f4469dbe63db04db904,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

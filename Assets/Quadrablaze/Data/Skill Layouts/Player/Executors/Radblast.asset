@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359f09898e1f76044976192832d8a318, type: 3}
+  m_Name: Radblast
+  m_EditorClassIdentifier: 
+  _cooldownDuration: 5
+  _cooldownTimer:
+    _active: 0
+    _length: 5
+    _currentTime: 0
+    _direction: 0
+    _autoReset: 0
+    _autoDisable: 1
+    OnChangeTime:
+      m_PersistentCalls:
+        m_Calls: []
+    OnElapsed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnLow:
+      m_PersistentCalls:
+        m_Calls: []
+    OnHigh:
+      m_PersistentCalls:
+        m_Calls: []
+  _prefabPoolName: Projectiles
+  _prefabNamePerLevel:
+  - Radblast 1
+  - Radblast 2
+  - Radblast 3
+  - Radblast 4
+  - Radblast 5
+  - Radblast 6
+  _speed: 40

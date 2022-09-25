@@ -1,0 +1,26 @@
+--- [2.0.4] - 2017-12-06
+### Changed
+- Updated the log path for the Windows platform given Unity has changed it to an external folder.
+
+--- [2.0.3] - 2017-03-11
+### Fixes
+- Fixed a serialization bug on the ExampleUsage custom inspector.
+
+--- [2.0.0] - 2017-05-21
+### Added
+- New drawing tool that lets the users draw over screenshots to make them extra meaningfull and clear
+- Added support to take several screenshots within one form
+- New UI dropdown with report types to choose.
+- New UI text that shows the user the current state of the report.
+- New button "Check Connection" under UsageExample that saves time.
+- Added support to create new lists in the Trello Board from the tool. 
+- UIManager and ExampleUsage are now singletons and use DontDestroyOnLoad
+
+### Changed
+- Some namespaces changed to make its content more clear
+- Changed some names under UsageExample for easier comprehention.
+- UsageExample was made more flexible and easier to customize
+
+### Deleted
+- Deleted ProgressBarAttribute.cs and TestButtonAttribute.cs including their drawers since it was giving errors
+  and broadcast message was not a clean solution

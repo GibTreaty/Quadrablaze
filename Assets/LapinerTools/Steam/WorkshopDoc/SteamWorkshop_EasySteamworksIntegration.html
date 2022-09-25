@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" >
+<head>
+<link rel="stylesheet" href="css/my_custom_styles.css" type="text/css" />
+<link rel="stylesheet" href="css/template.css" type="text/css" />
+</head>
+<body class="documentation">
+<h1 class="page-title">Steam Workshop - Easy Steamworks Integration</h1>
+<b><a href="http://www.freebord-game.com/index.php/steam-workshop-easy-steamworks-integration#doc_v1_00">FULL ONLINE DOCUMENTATION (it looks better :)</a></b><br />
+<b><a href="http://www.freebord-game.com/index.php/steam-workshop-easy-steamworks-integration">PROJECT HOME PAGE</a></b><br /><br />
+<font color="#FF0000">If you have any questions or you cannot find any help for your problem in this documentation then please write a post in the following unity forum thread:<br /><a href="https://forum.unity3d.com/threads/steam-workshop-easy-steamworks-integration.462329/">Unity Forum: Steam Workshop - Easy Steamworks Integration.</a><br />Please do the same also if you have any feedback or improvement suggestion to this documentation.</font><br /><br />
+<a name="doc_v1_00"></a>
+<p>
+<strong><big>Documentation</big></strong>
+<br />
+<a href="#doc_v1_00_started">Getting Started</a><br />
+<a href="#doc_v1_00_link">Link App And Setup Workshop</a><br />
+<a href="#doc_v1_00_popups">Show Independent Popups</a><br />
+<a href="#doc_v1_00_static">Add To Existing uGUI</a><br />
+<a href="http://www.freebord-game.com/EasySteam/ScriptingReference/class_lapiner_tools_1_1_steam_1_1_steam_workshop_main.html">Scripting Reference</a><br />
+</p>
+
+
+
+<a name="doc_v1_00_started"></a><strong><big>Getting Started</big></strong><br />
+After importing the Unity package the browse example (in ExampleScenesPopup or ExampleScenesStatic folders) will work out of the box - Steam must be running.<br />
+By default Steamworks.NET will use the Steam AppId 480 - SpaceWar, use it for your Workshop browser integration tests.<br />
+However, it is not possible to upload new levels to SpaceWar.<br />
+Please follow the instructions in <a href="#doc_v1_00_link"><strong>Link App And Setup Workshop</strong></a> to browse the Workshop of your game and to use the upload feature.
+<br />
+<br />
+
+
+
+<a name="doc_v1_00_link"></a><strong><big>Link App And Setup Workshop</big></strong><br />
+Follow the steps below to set the AppId and to configure Steam Workshop for your game.
+<ul>
+<li type="disc">
+    Start one of the test scenes to generate the <strong>steam_appid.txt</strong> file in the root of your project (the folder where Assets, Library and ProjectSettings directories a located).
+</li>
+<li type="disc">
+    Open the <strong>steam_appid.txt</strong> file and replace 480 with your Steam AppId.
+</li>
+<li type="disc">
+    Restart Unity Editor to load your new AppId.
+</li>
+<li type="disc">
+    Login to <a href="https://partner.steamgames.com/home"><strong>partner.steamgames.com</strong></a> and open your game's App Admin page.
+</li>
+<li type="disc">
+    Under <strong>Technical Tools</strong> hit <strong>Edit Steamworks Settings</strong>.
+</li>
+<li type="disc">
+    Go to <strong>Application->Steam Cloud</strong> and set your data quotas e.g. 1048576000 for data per user and 1000 for number of files.
+</li>
+<li type="disc">
+    [optional] Tick <strong>Enable cloud support for developers only</strong> to hide your Workshop work until it is finished for public use.
+</li>
+<li type="disc">
+    Go to <strong>Workshop->General</strong> and tick <strong>Enable ISteamUGC for file transfer</strong>.
+</li>
+<li type="disc">
+    Go to <strong>Publish</strong> and apply your changes.
+</li>
+<li type="disc">
+    Steam might need a few hours for the changes to be applied -> be patient if it doesn't start to work instantly.
+</li>
+<li type="disc">
+    Now you should be able to browse the items of your game's Workshop and to upload new items by using the provided example scenes (in the ExampleScenesPopup or ExampleScenesStatic folders). You can find a more detailed tutorial in the <a href="https://partner.steamgames.com/documentation/ugc">Steam partner portal</a>.
+</li>
+</ul>
+
+
+
+<a name="doc_v1_00_popups"></a><strong><big>Show Independent Popups</big></strong><br />
+The single code line below will show a Workshop browser popup, which will list all comunity items of your game and allow to search, sort, vote, favorite, subscribe and download them. Please find detailed example code in addition with some other useful hints in the <strong>SteamWorkshopBrowseExamplePopup</strong> class.
+<code>
+<p class="my_code_comment">// show the Steam Workshop browse popup</p>
+uMyGUI_PopupManager.Instance.ShowPopup("steam_ugc_browse");
+</code>
+
+The code below will show a Workshop item upload popup, which will allow entering the name and description of the item. Besides, it will allow to make a screenshot, which will be displayed as the item icon in the Workshop. Please find detailed example code in addition with some other useful hints in the <strong>SteamWorkshopUploadNewItemExamplePopup</strong> class.
+<code>
+<p class="my_code_comment">// tell which folder you want to upload</p>
+WorkshopItemUpdate createNewItemUsingGivenFolder = new WorkshopItemUpdate();<br />
+createNewItemUsingGivenFolder.ContentPath = ...;
+<p class="my_code_comment">// show the Steam Workshop item upload popup</p>
+((SteamWorkshopPopupUpload)uMyGUI_PopupManager.Instance.ShowPopup("steam_ugc_upload"))<br />
+&nbsp;&nbsp;&nbsp;.UploadUI.SetItemData(createNewItemUsingGivenFolder);
+</code>
+
+The following code shows a Workshop item update popup, which allows updating the name, the description and the icon of an existing item. All changed files in the given folder will be updated or uploaded. Please find detailed example code in addition with some other useful hints in the <strong>SteamWorkshopUpdateOwnedItemExamplePopup</strong> and <strong>SteamWorkshopUpdateItemFromFolderExamplePopup</strong> classes.
+<code>
+<p class="my_code_comment">// load item data from existing item folder</p>
+WorkshopItemUpdate itemUpdate = SteamWorkshopMain.Instance.GetItemUpdateFromFolder(...);
+<p class="my_code_comment">// show the Steam Workshop item update popup</p>
+((SteamWorkshopPopupUpload)uMyGUI_PopupManager.Instance.ShowPopup("steam_ugc_upload"))<br />
+&nbsp;&nbsp;&nbsp;.UploadUI.SetItemData(itemUpdate);
+</code>
+
+
+
+<a name="doc_v1_00_static"></a><strong><big>Add To Existing uGUI</big></strong><br />
+You will find two prefabs included in the package, <strong>SteamWorkshopItemBrowser</strong> and <strong>SteamWorkshopItemUpload</strong>. All you need to do is simply drag n' drop those into your Canvas or add them to any of your UI elements.
+<br />
+<br />
+</body>
+</html>

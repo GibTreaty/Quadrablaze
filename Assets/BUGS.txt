@@ -1,0 +1,17 @@
+- You can invite people who are already in the lobby RIP
+- Reimporting a failed mesh causes bad things to happen
+- Importing a custom mesh that has a published workshop id to a non-existing workshop item creates an error
+- Weapon icons active states are wrong when switching to a different ship for a second round
+- UI becomes unclickable after leaving multiplayer
+- Player movement spikes and sends the player going around the arena for some reason
+- Dasher T4 needs adjusting so that it hits the player more reliably
+- Laser weapons not syncing spawn rate
+- Triformer force field causes damage when activating
+- Deformer's shots are going through the player on the non-host's side
+- Boss start position for client is in the center of the screen and then it teleports to the new location wtf *Use QuadrablazeTransformSync component
+- Forcefields are ignoring invincibility and the other-player hud isn't updating their health during those attacks
+- Health not getting synced 100% probably due to the above issue^
+- Remove SkillLayoutElement.BaseLevel. It's unnecessary, just set the CurrentLevel instead.
+- Non-host clients are setting health in unintended ways. Includes shield health
+- Multiplayer lobby UI can't be navigated with keys
+- Shockwave not pushing enemies (explosives)

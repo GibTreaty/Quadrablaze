@@ -1,0 +1,4 @@
+RewiredStandaloneInputModule.cs in SendSubmitEventToSelectedObject().
+
+Line 835: ExecuteEvents.Execute(eventSystem.currentSelectedGameObject, data, ExecuteEvents.cancelHandler);
+should be disabled to prevent the cancel button from executing

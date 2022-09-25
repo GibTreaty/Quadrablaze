@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 1714d245ce10494469c15dc3c9fe3a3f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Arm
+    100004: Arm_001
+    100006: Gun
+    100008: Arm_Left
+    100010: Arm_Right
+    100012: Gun_Left
+    100014: Gun_Middle
+    100016: Gun_Right
+    100018: Head
+    100020: Shooting_Point
+    100022: Shooting_Point_001
+    100024: Shooting_Point_002
+    100026: Gun_Middle_Side_Left
+    100028: Gun_Middle_Side_Right
+    100030: Gun_Middle_Opener
+    100032: Opener_Middle
+    100034: Rail_Rider
+    100036: Gun_Middle_Opener_001
+    100038: Gun_Middle_Opener_002
+    100040: Opener_Middle_001
+    100042: Opener_Middle_002
+    100044: Gun_Left_Control
+    100046: Gun_Left_Side_Left
+    100048: Gun_Left_Side_Right
+    100050: Gun_Middle_Control
+    100052: Gun_Right_Control
+    100054: Gun_Right_Side_Left
+    100056: Gun_Right_Side_Right
+    100058: Left_Handle
+    100060: Middle_Handle
+    100062: RIght_Handle
+    100064: Shooting_Point_Left
+    100066: Shooting_Point_Middle
+    100068: Shooting_Point_Right
+    100070: Right_Handle
+    400000: //RootNode
+    400002: Arm
+    400004: Arm_001
+    400006: Gun
+    400008: Arm_Left
+    400010: Arm_Right
+    400012: Gun_Left
+    400014: Gun_Middle
+    400016: Gun_Right
+    400018: Head
+    400020: Shooting_Point
+    400022: Shooting_Point_001
+    400024: Shooting_Point_002
+    400026: Gun_Middle_Side_Left
+    400028: Gun_Middle_Side_Right
+    400030: Gun_Middle_Opener
+    400032: Opener_Middle
+    400034: Rail_Rider
+    400036: Gun_Middle_Opener_001
+    400038: Gun_Middle_Opener_002
+    400040: Opener_Middle_001
+    400042: Opener_Middle_002
+    400044: Gun_Left_Control
+    400046: Gun_Left_Side_Left
+    400048: Gun_Left_Side_Right
+    400050: Gun_Middle_Control
+    400052: Gun_Right_Control
+    400054: Gun_Right_Side_Left
+    400056: Gun_Right_Side_Right
+    400058: Left_Handle
+    400060: Middle_Handle
+    400062: RIght_Handle
+    400064: Shooting_Point_Left
+    400066: Shooting_Point_Middle
+    400068: Shooting_Point_Right
+    400070: Right_Handle
+    2300000: //RootNode
+    2300002: Arm
+    2300004: Arm_001
+    2300006: Gun
+    2300008: Arm_Left
+    2300010: Arm_Right
+    2300012: Gun_Left
+    2300014: Gun_Middle
+    2300016: Gun_Right
+    2300018: Head
+    2300020: Gun_Middle_Side_Left
+    2300022: Gun_Middle_Side_Right
+    2300024: Gun_Left_Side_Left
+    2300026: Gun_Left_Side_Right
+    2300028: Gun_Right_Side_Left
+    2300030: Gun_Right_Side_Right
+    3300000: //RootNode
+    3300002: Arm
+    3300004: Arm_001
+    3300006: Gun
+    3300008: Arm_Left
+    3300010: Arm_Right
+    3300012: Gun_Left
+    3300014: Gun_Middle
+    3300016: Gun_Right
+    3300018: Head
+    3300020: Gun_Middle_Side_Left
+    3300022: Gun_Middle_Side_Right
+    3300024: Gun_Left_Side_Left
+    3300026: Gun_Left_Side_Right
+    3300028: Gun_Right_Side_Left
+    3300030: Gun_Right_Side_Right
+    4300000: Cube
+    4300002: Arm
+    4300004: Gun
+    4300006: Arm_001
+    4300008: Gun_Right
+    4300010: Gun_Middle
+    4300012: Gun_Left
+    4300014: Head
+    4300016: Arm_Left
+    4300018: Arm_Right
+    4300020: Gun_Middle_Side_Right
+    4300022: Gun_Middle_Side_Left
+    4300024: Gun_Left_Side_Left
+    4300026: Gun_Left_Side_Right
+    4300028: Gun_Right_Side_Right
+    4300030: Gun_Right_Side_Left
+    7400000: Default Take
+    9500000: //RootNode
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Rail_Rider
+    - Rail_Rider/Head
+    - Rail_Rider/Head/Arm_Left
+    - Rail_Rider/Head/Arm_Right
+    - Rail_Rider/Head/Gun_Middle
+    - Rail_Rider/Head/Arm_Left/Gun_Left
+    - Rail_Rider/Head/Arm_Right/Gun_Right
+    - Rail_Rider/Head/Gun_Middle/Shooting_Point_Middle
+    - Rail_Rider/Head/Arm_Right/Gun_Right/Shooting_Point_Right
+    - Rail_Rider/Head/Arm_Left/Gun_Left/Shooting_Point_Left
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

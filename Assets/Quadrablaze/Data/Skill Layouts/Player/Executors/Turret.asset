@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace4ba3039fcf5840a64baeb6a22a66e, type: 3}
+  m_Name: Turret
+  m_EditorClassIdentifier: 
+  _originalTurretEntity: {fileID: 11400000, guid: 4be45f380903b0c4fb5ee597339ffc5d,
+    type: 2}
+  _poolManagerName: Player
+  _poolPrefabName: Turret
+  _deployedDuration: 15
+  _cooldownDuration: 30
+  _deployedTimer:
+    _active: 0
+    _length: 15
+    _currentTime: 0
+    _direction: 0
+    _autoReset: 1
+    _autoDisable: 1
+    OnChangeTime:
+      m_PersistentCalls:
+        m_Calls: []
+    OnElapsed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnLow:
+      m_PersistentCalls:
+        m_Calls: []
+    OnHigh:
+      m_PersistentCalls:
+        m_Calls: []
+  _cooldownTimer:
+    _active: 0
+    _length: 30
+    _currentTime: 0
+    _direction: 0
+    _autoReset: 0
+    _autoDisable: 1
+    OnChangeTime:
+      m_PersistentCalls:
+        m_Calls: []
+    OnElapsed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnLow:
+      m_PersistentCalls:
+        m_Calls: []
+    OnHigh:
+      m_PersistentCalls:
+        m_Calls: []
+  _deployPushForce: 5
+  _deployPushDirection: {x: 0, y: 0, z: 0}

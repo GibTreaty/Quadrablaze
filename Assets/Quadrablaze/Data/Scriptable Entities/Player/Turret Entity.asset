@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7064c7c2f51efc4fa7a88defeaa35d3, type: 3}
+  m_Name: Turret Entity
+  m_EditorClassIdentifier: 
+  _originalGameObject: {fileID: 1000011888588122, guid: 1baa64b8aea9195429c24629f1cc558f,
+    type: 3}
+  _originalUpgradeSet: {fileID: 11400000, guid: ad07bc33635154949b61cfb0e8de9e2e,
+    type: 2}
+  _size: 1.28
+  _movementInterruptLength: 0

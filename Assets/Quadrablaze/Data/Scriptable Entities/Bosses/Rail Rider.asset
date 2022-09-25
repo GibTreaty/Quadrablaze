@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94cdeadc91dd16a459ab4f208a0e2b0a, type: 3}
+  m_Name: Rail Rider
+  m_EditorClassIdentifier: 
+  _originalGameObject: {fileID: 103592, guid: 4695282ccdd9e4b4bbf01b7d9118e655, type: 3}
+  _originalUpgradeSet: {fileID: 11400000, guid: c92cd9c6e81468146b31b6da61257ccc,
+    type: 2}
+  _size: 7.75
+  _movementInterruptLength: 1
+  _healthSlots:
+  - baseHealth: 1
+    levelModifier: 0.25
+  - baseHealth: 1
+    levelModifier: 0.25
+  - baseHealth: 1
+    levelModifier: 0.25
+  _subBoss: 0

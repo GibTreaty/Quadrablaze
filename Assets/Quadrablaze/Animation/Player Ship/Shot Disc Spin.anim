@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Shot Disc Spin
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 4.707546, z: 0, w: -0.18496154}
+        outSlope: {x: 0, y: 4.707546, z: 0, w: -0.18496154}
+        tangentMode: 0
+      - time: 0.016666668
+        value: {x: 0, y: 0.07845911, z: 0, w: 0.9969173}
+        inSlope: {x: 0, y: 4.6930346, z: 0, w: -0.36934912}
+        outSlope: {x: 0, y: 4.6930346, z: 0, w: -0.36934912}
+        tangentMode: 0
+      - time: 0.033333335
+        value: {x: 0, y: 0.15643449, z: 0, w: 0.98768836}
+        inSlope: {x: 0, y: 4.6495886, z: 0, w: -0.7364218}
+        outSlope: {x: 0, y: 4.6495886, z: 0, w: -0.7364218}
+        tangentMode: 0
+      - time: 0.050000004
+        value: {x: 0, y: 0.2334454, z: 0, w: 0.9723699}
+        inSlope: {x: 0, y: 4.577476, z: 0, w: -1.0989565}
+        outSlope: {x: 0, y: 4.577476, z: 0, w: -1.0989565}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0, y: 0.30901703, z: 0, w: 0.9510565}
+        inSlope: {x: 0, y: 4.477142, z: 0, w: -1.4547123}
+        outSlope: {x: 0, y: 4.477142, z: 0, w: -1.4547123}
+        tangentMode: 0
+      - time: 0.083333336
+        value: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+        inSlope: {x: 0, y: 4.419986, z: 0, w: -1.6306187}
+        outSlope: {x: 0, y: 4.419986, z: 0, w: -1.6306187}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: YG Shooter Ship/Shot Disc
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 2044661174
+      attribute: 2
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.083333336
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.016666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.033333335
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.050000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.06666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: YG Shooter Ship/Shot Disc
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 4.707546
+        outSlope: 4.707546
+        tangentMode: 0
+      - time: 0.016666668
+        value: 0.07845911
+        inSlope: 4.6930346
+        outSlope: 4.6930346
+        tangentMode: 0
+      - time: 0.033333335
+        value: 0.15643449
+        inSlope: 4.6495886
+        outSlope: 4.6495886
+        tangentMode: 0
+      - time: 0.050000004
+        value: 0.2334454
+        inSlope: 4.577476
+        outSlope: 4.577476
+        tangentMode: 0
+      - time: 0.06666667
+        value: 0.30901703
+        inSlope: 4.477142
+        outSlope: 4.477142
+        tangentMode: 0
+      - time: 0.083333336
+        value: 0.38268346
+        inSlope: 4.419986
+        outSlope: 4.419986
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: YG Shooter Ship/Shot Disc
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.016666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.033333335
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.050000004
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.06666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: YG Shooter Ship/Shot Disc
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -0.18496154
+        outSlope: -0.18496154
+        tangentMode: 0
+      - time: 0.016666668
+        value: 0.9969173
+        inSlope: -0.36934912
+        outSlope: -0.36934912
+        tangentMode: 0
+      - time: 0.033333335
+        value: 0.98768836
+        inSlope: -0.7364218
+        outSlope: -0.7364218
+        tangentMode: 0
+      - time: 0.050000004
+        value: 0.9723699
+        inSlope: -1.0989565
+        outSlope: -1.0989565
+        tangentMode: 0
+      - time: 0.06666667
+        value: 0.9510565
+        inSlope: -1.4547123
+        outSlope: -1.4547123
+        tangentMode: 0
+      - time: 0.083333336
+        value: 0.9238795
+        inSlope: -1.6306187
+        outSlope: -1.6306187
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: YG Shooter Ship/Shot Disc
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesBaked.x
+    path: YG Shooter Ship/Shot Disc
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 540
+        outSlope: 540
+        tangentMode: 10
+      - time: 0.083333336
+        value: 45
+        inSlope: 540
+        outSlope: 540
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesBaked.y
+    path: YG Shooter Ship/Shot Disc
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.083333336
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesBaked.z
+    path: YG Shooter Ship/Shot Disc
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

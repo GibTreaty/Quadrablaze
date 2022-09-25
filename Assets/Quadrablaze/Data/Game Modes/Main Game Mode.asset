@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7b13250569757640a4744bf5c3f477c, type: 3}
+  m_Name: Main Game Mode
+  m_EditorClassIdentifier: 
+  _bossDatabase: {fileID: 11400000, guid: 7e654040392f630408e9659a11769a01, type: 2}
+  _editorBossDatabase: {fileID: 11400000, guid: 60d78fa6ca460564a97a244267b5b98d,
+    type: 2}
+  _bossPoolName: Boss
+  _bossSpawnTimeDelay: 60
+  _enemyDatabase: {fileID: 11400000, guid: a98a36b70aba4c14898aa38fece4d5c1, type: 2}
+  _editorEnemyDatabase: {fileID: 11400000, guid: a98a36b70aba4c14898aa38fece4d5c1,
+    type: 2}
+  _enemyPoolName: Enemy
+  _maxEnemies: 20
+  _enemySpawnTimeDelay: 1
+  _betweenWaveTimer: 1
+  _minimumCostCurve: {fileID: 11400000, guid: 3e30ef45433114146896b9c1d4b7093c, type: 2}
+  _maximumCostCurve: {fileID: 11400000, guid: 23f9fb5540a73884bbe7c6087041c66e, type: 2}
+  _tierCurve: {fileID: 11400000, guid: b816fb59dc73da74d9a0fc2699ac3b72, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e67a5ff6c715042996188e57eb5cd7, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  _skillIcon: {fileID: 21300000, guid: ada777ba8b4223748a32c15c9c2e02c0, type: 3}
+  _createsExecutor: {fileID: 11400000, guid: 55d58ebf79f079245b4bab71e6f7b3af, type: 2}
+  _baseLevel: 0
+  _baseModifier: 0
+  _baseSkillAmount: 0
+  _levelCap: 6
+  _modifier: 0
+  _skillModifierType: 0
+  _setSkillAmounts: []
+  _levelDescriptions:
+  - A shield with <color=red>1hp</color>
+  - A shield with <color=red>2hp</color>
+  - A shield with <color=red>3hp</color>
+  - A shield with <color=red>4hp</color>
+  - A shield with <color=red>5hp</color>
+  - A shield with <color=red>6hp</color>

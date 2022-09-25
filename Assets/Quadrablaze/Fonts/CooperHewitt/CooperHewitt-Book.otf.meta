@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 39f307d82bcddb144a5c61266abc58d0
+timeCreated: 1461851311
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 3
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontNames:
+  - Cooper Hewitt
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0bfceb72941835b4ca3c9334c65e27b3, type: 3}
+  - {fileID: 12800000, guid: 2cb7ab44de6c1934a87972b30873ef7c, type: 3}
+  - {fileID: 12800000, guid: 34ba3f64b5a0da74ebebdcd7c7250aef, type: 3}
+  - {fileID: 12800000, guid: 07e7dadb88ef7e74ebd90f5c0d302e3e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

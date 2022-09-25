@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eea4afd60790bc498e8f54c1b379d47, type: 3}
+  m_Name: Blaze
+  m_EditorClassIdentifier: 
+  _afterburnerSpeed: 32
+  _blazeAfterburnerPrefab: {fileID: 114039437372078614, guid: 29ef99d6017f9c042b1d2ed7e0134790,
+    type: 3}
+  _blazeRingPrefab: {fileID: 114402988054248120, guid: d8819134e3a2f214cb5ac3410200f997,
+    type: 3}
+  _blazeRadiusTransformPath: Blaze Glow/Glow
+  _blazeDuration: 3
+  _blazeRechargeDuration: 3
+  _rotationSpeed: 45
+  _radius: 6
+  _radiusLevelMultiplier: 0.2
+  _damagePerSecond: 0.5
+  _bossDamagePerSecond: 0.125
+  _damageLevelMultiplier: 0.1
+  _hitMask:
+    serializedVersion: 2
+    m_Bits: 2163200

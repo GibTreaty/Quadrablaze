@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &190416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 485546}
+  - 114: {fileID: 11431332}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &485546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11431332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c808bde01e9f741bcdd32fa3131b16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: {fileID: 0}
+  mainMenuButtons: {fileID: 0}
+  mainMenuGroup: {fileID: 0}
+  newGameButton: {fileID: 0}
+  resumeButton: {fileID: 0}
+  playButton: {fileID: 0}
+  optionsButton: {fileID: 0}
+  quitButton: {fileID: 0}
+  difficultyMenu: {fileID: 0}
+  difficultyMenuGroup: {fileID: 0}
+  difficultyMenuUI: {fileID: 0}
+  optionsMenu: {fileID: 0}
+  optionsTabs: {fileID: 0}
+  uiControlList: {fileID: 0}
+  uiAudioOptions: {fileID: 0}
+  uiVideoOptions: {fileID: 0}
+  uiGameOptions: {fileID: 0}
+  controlRemapperCalibrateButton: {fileID: 0}
+  controlRemapperControlSlider: {fileID: 0}
+  playerUI: {fileID: 0}
+  upgradeMenu: {fileID: 0}
+  upgradeTabs: {fileID: 0}
+  skillContainer: {fileID: 0}
+  skillButton: {fileID: 123444, guid: f8094ec5c44c4644da062cb56b018afd, type: 2}
+  skillContainerToggleGroup: {fileID: 0}
+  skillPanel: {fileID: 0}
+  skillLevelUp: {fileID: 0}
+  upgradeContainer: {fileID: 0}
+  upgradeContainers: []
+  weaponLevelUp: {fileID: 0}
+  weaponUpgradeNotificationText: {fileID: 0}
+  xpBar: {fileID: 0}
+  currentXPText: {fileID: 0}
+  nextXPText: {fileID: 0}
+  healthBar: {fileID: 0}
+  shieldBar: {fileID: 0}
+  currentHealthText: {fileID: 0}
+  maxHealthText: {fileID: 0}
+  playerLevel: {fileID: 0}
+  playerSkillPoints: {fileID: 0}
+  otherUIObject: {fileID: 0}
+  gameOver: {fileID: 0}
+  goalCompleted: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 190416}
+  m_IsPrefabParent: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa84d8ece8f22a04f8e82fe0cbd42a86, type: 3}
+  m_Name: Barrage
+  m_EditorClassIdentifier: 
+  _projectileCount: 10
+  _targetLimit: 1
+  _projectileLifetime: 2
+  _projectileStartTime: 1
+  _projectileLaunchGap: 0.1
+  _cooldownTimer: 5
+  _damage: 1
+  _missileStartCurve: {fileID: 11400000, guid: 8f523a0ead33cf644af8178510ae0e3c, type: 2}
+  _missileHomingCurve: {fileID: 11400000, guid: 4a3b720ae2a3d9c4e94132497746cc5c,
+    type: 2}
+  _projectilePoolName: Projectiles
+  _projectilePoolPrefabId: 8

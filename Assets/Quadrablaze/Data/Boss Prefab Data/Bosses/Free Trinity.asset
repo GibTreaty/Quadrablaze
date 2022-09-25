@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4730212e2b082914da199898e6804d3d, type: 3}
+  m_Name: Free Trinity
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 1000010005845628, guid: 2704ff51d7adbda44abd8767c47d5f25, type: 3}
+  _id: Free Trinity
+  _prefabId: 1

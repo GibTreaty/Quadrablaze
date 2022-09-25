@@ -1,0 +1,19 @@
+/* my custom styles */
+.my_eye_catch_text {
+  color:red;
+  font-weight: bold;
+}
+
+.my_code_comment {
+  color:green;
+  font-family:Verdana, Arial;
+  font-style:italic;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.my_table {
+  color:#272727;
+  text-align:left;
+  vertical-align:top;
+}

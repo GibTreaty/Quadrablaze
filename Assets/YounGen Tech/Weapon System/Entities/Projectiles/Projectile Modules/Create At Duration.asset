@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba99c40960d9dd4fae8d44091cd744a, type: 3}
+  m_Name: Create At Duration
+  m_EditorClassIdentifier: 
+  _time: 0.5
+  _properties:
+    originalProjectile: {fileID: 11400000, guid: 6360388a0e31e054b8e455a8de036887,
+      type: 2}
+    maxProjectileDuration: 1
+    projectilesPerShot: 1
+    shotsPerSecond: 0
+    spreadAngle: 0
+    spreadType: 0
+    spreadAmplitude: 0
+    spreadFrequency: 0
+    spreadMagnitude: 0
+    startAngularVelocity: 0
+    startAcceleration: 3

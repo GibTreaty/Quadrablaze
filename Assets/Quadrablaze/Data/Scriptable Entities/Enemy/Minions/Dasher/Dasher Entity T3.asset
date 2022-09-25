@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6b3d790d34c7f5438427708079150b4, type: 3}
+  m_Name: Dasher Entity T3
+  m_EditorClassIdentifier: 
+  _originalGameObject: {fileID: 114890, guid: b7fa342849c89ac4cbe0f00e3e9d6802, type: 3}
+  _originalUpgradeSet: {fileID: 11400000, guid: de85ff07f809d5b418ac0dd9c1f0c858,
+    type: 2}
+  _size: 0
+  _movementInterruptLength: 0
+  _healthSlots:
+  - baseHealth: 3
+    levelModifier: 1
+  _spawnable: 0
+  _xp: 1
+  _points: 5
+  _tier: 3
+  _group: Dasher
+  _requireAbilities: []
+  _spawnCountTarget: 1
+  _maximumSpawnCount: 0
+  _poolSize: 15

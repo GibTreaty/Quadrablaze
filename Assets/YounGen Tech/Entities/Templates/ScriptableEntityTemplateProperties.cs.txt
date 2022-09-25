@@ -1,0 +1,17 @@
+#NAMESPACES
+
+namespace YounGenTech.Entity {
+    [CreateAssetMenu(menuName = "YounGen Tech/Entities/#MENUNAME")]
+    public class Scriptable#NAMEEntity : ScriptableEntity {
+
+#VARIABLES
+
+        public override Entity CreateInstance() {
+            var entity = new #CLASSNAME(OriginalGameObject);
+
+#SETVAR
+
+            return entity;
+        }
+    }
+}

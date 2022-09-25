@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7123767a0163a4eb6634dba6fa0330, type: 3}
+  m_Name: Powered Shot Projectile
+  m_EditorClassIdentifier: 
+  _originalGameObject: {fileID: 6490789166017288228, guid: 33d270715d5ebc543953e5b7f5d16817,
+    type: 3}
+  _poolName: Projectiles
+  _poolId: 4
+  _modules:
+  - {fileID: 11400000, guid: f9b8ce51b741f084bbf130b867a82b35, type: 2}

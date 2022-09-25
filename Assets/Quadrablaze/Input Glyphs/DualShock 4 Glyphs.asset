@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3bdcb0329c421c46b2a9242337d6aaa, type: 3}
+  m_Name: DualShock 4 Glyphs
+  m_EditorClassIdentifier: 
+  _deviceType: 2
+  _joystick: {fileID: 11400000, guid: a25f0c1e102b54019bf551294306b277, type: 2}
+  _joystickTemplate: {fileID: 0}
+  _buttonGlyphs:
+  - name: Left Stick X
+    elementIdentifierId: 0
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: bd495ed7c7cb46a41aec8b69eefd47c9, type: 3}
+    iconPositive: {fileID: 21300000, guid: 68e5723da19b97f4a81d18fa454abbed, type: 3}
+    iconNegative: {fileID: 21300000, guid: 41f2aa7a484af6340bac3cc4bee17be0, type: 3}
+  - name: Left Stick Y
+    elementIdentifierId: 1
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 5e47e1f6cb9490746a10235bf39efd38, type: 3}
+    iconPositive: {fileID: 21300000, guid: 231225eebca97c244988d440f66d88bc, type: 3}
+    iconNegative: {fileID: 21300000, guid: e8e67fb7a6a856d43b0d41f3c956dbcb, type: 3}
+  - name: Right Stick X
+    elementIdentifierId: 2
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: e9455cddd0668474484a8b047e7ab8c1, type: 3}
+    iconPositive: {fileID: 21300000, guid: 662bc3e4241b6514da2f65490f6b5e41, type: 3}
+    iconNegative: {fileID: 21300000, guid: b1d77195975ba1f499d209d8a3d698e8, type: 3}
+  - name: Right Stick Y
+    elementIdentifierId: 3
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 26327ca0edc4c974d8808fe3685121e4, type: 3}
+    iconPositive: {fileID: 21300000, guid: 548ef33f37664554e843596766023fbb, type: 3}
+    iconNegative: {fileID: 21300000, guid: 70e1b44d7ada2db4d96c9ec85eadad75, type: 3}
+  - name: Cross
+    elementIdentifierId: 4
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 7d2c97349a36c634bad5f3f8836287d8, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Circle
+    elementIdentifierId: 5
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: c1685bbd70eb55c488828c8473112bb3, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Square
+    elementIdentifierId: 6
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 9a180b8e39a9ac04b8bd9966b95d07d9, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Triangle
+    elementIdentifierId: 7
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 19ae0cdfddfb92240a08d35d086e4dd5, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: L1
+    elementIdentifierId: 8
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: c950bc798bef3f2498edd3263924810a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: L2
+    elementIdentifierId: 9
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 00ca0fca9abe3ab4d87a486c955bfc38, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: R1
+    elementIdentifierId: 10
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: fd7f483d67918d84c877f21b273e05de, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: R2
+    elementIdentifierId: 11
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 05e14bfd1fbe8fd43902b2ed973ac24b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Share
+    elementIdentifierId: 12
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 4153c07b05f38f64ea981da6347397fd, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Options
+    elementIdentifierId: 13
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: ce1d63ce993260641b1a7ce7fc38655d, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: PS Button
+    elementIdentifierId: 14
+    alternateElementIdentifierNames: []
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Touchpad Button
+    elementIdentifierId: 15
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 78f0167874c309a409039dd6740e5e06, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Left Stick Button
+    elementIdentifierId: 16
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: af654ae98bc76294ba8722abfba5fd5b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Right Stick Button
+    elementIdentifierId: 17
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 5ed1a9260ea4bb946b85afde131f5e79, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: D-Pad Up
+    elementIdentifierId: 18
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: a4f54744e6d13cd4ab555bbb16400f1c, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: D-Pad Right
+    elementIdentifierId: 19
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 36a361957244f4b429a3a0198469358a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: D-Pad Down
+    elementIdentifierId: 20
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: fa3e57994042ac148bfcc4f024a386b5, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: D-Pad Left
+    elementIdentifierId: 21
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 35e7c84219e88df45acee538db380da4, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Left Stick
+    elementIdentifierId: 22
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: 6a4ca0be862f6b34789024751ebd65c0, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Right Stick
+    elementIdentifierId: 23
+    alternateElementIdentifierNames: []
+    icon: {fileID: 21300000, guid: f65f1647c7999ce43802f6ac726c379a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}

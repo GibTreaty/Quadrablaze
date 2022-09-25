@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 6947098826b87b94c9ee6dc08020fc93
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Glow_Spot
+    100004: Jet_000
+    100006: Jet_001
+    100008: Jet_002
+    100010: Jet_003
+    100012: Leg_000
+    100014: Leg_001
+    100016: Leg_002
+    100018: Leg_003
+    100020: //RootNode
+    100022: Shield_000
+    100024: Shield_001
+    100026: Shield_002
+    100028: Shield_003
+    100030: Shield_Left_000
+    100032: Shield_Left_001
+    100034: Shield_Left_002
+    100036: Shield_Left_003
+    100038: Shield_Right_000
+    100040: Shield_Right_001
+    100042: Shield_Right_002
+    100044: Shield_Right_003
+    100046: Weapon_1
+    100048: Weapon_2
+    100050: Weapon_3
+    100052: Weapon_Pivot
+    100054: Weapon_Track
+    400000: Cube
+    400002: Glow_Spot
+    400004: Jet_000
+    400006: Jet_001
+    400008: Jet_002
+    400010: Jet_003
+    400012: Leg_000
+    400014: Leg_001
+    400016: Leg_002
+    400018: Leg_003
+    400020: //RootNode
+    400022: Shield_000
+    400024: Shield_001
+    400026: Shield_002
+    400028: Shield_003
+    400030: Shield_Left_000
+    400032: Shield_Left_001
+    400034: Shield_Left_002
+    400036: Shield_Left_003
+    400038: Shield_Right_000
+    400040: Shield_Right_001
+    400042: Shield_Right_002
+    400044: Shield_Right_003
+    400046: Weapon_1
+    400048: Weapon_2
+    400050: Weapon_3
+    400052: Weapon_Pivot
+    400054: Weapon_Track
+    2100000: Round_Prototype
+    2100002: Quadrablaze_Vertex_Map
+    2300000: Cube
+    2300002: Leg_000
+    2300004: Leg_001
+    2300006: Leg_002
+    2300008: Leg_003
+    2300010: Shield_Left_000
+    2300012: Shield_Left_001
+    2300014: Shield_Left_002
+    2300016: Shield_Left_003
+    2300018: Shield_Right_000
+    2300020: Shield_Right_001
+    2300022: Shield_Right_002
+    2300024: Shield_Right_003
+    2300026: Weapon_Track
+    3300000: Cube
+    3300002: Leg_000
+    3300004: Leg_001
+    3300006: Leg_002
+    3300008: Leg_003
+    3300010: Shield_Left_000
+    3300012: Shield_Left_001
+    3300014: Shield_Left_002
+    3300016: Shield_Left_003
+    3300018: Shield_Right_000
+    3300020: Shield_Right_001
+    3300022: Shield_Right_002
+    3300024: Shield_Right_003
+    3300026: Weapon_Track
+    4300000: Leg_003
+    4300002: Shield_Right_003
+    4300004: Shield_Left_003
+    4300006: Leg_002
+    4300008: Shield_Right_002
+    4300010: Shield_Left_002
+    4300012: Leg_001
+    4300014: Shield_Right_001
+    4300016: Shield_Left_001
+    4300018: Leg_000
+    4300020: Shield_Right_000
+    4300022: Shield_Left_000
+    4300024: Weapon_Track
+    4300026: Cube
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.4
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

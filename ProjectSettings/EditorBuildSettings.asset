@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Quadrablaze/Scenes/Empty.unity
+    guid: 933880ceee76fad4faa2f9b28fcc430a
+  - enabled: 1
+    path: Assets/Quadrablaze/Scenes/Main.unity
+    guid: d28e87cea278a794ab6ecac8e7ba825b
+  - enabled: 0
+    path: Assets/Quadrablaze/Scenes/Testing/Steam API.unity
+    guid: bf79c4d47b74b3a4cb2144cf1fd4f7a5
+  - enabled: 0
+    path: Assets/Quadrablaze/Scenes/Main - Debug.unity
+    guid: c6a9e49f72cc8a348b54c0b2cd114b44
+  m_configObjects: {}

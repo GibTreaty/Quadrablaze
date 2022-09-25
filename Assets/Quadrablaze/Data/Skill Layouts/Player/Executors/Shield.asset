@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c94c8700be3ccf749bb661b2c8f0f458, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  _skillLayoutElementIndex: -1
+  _shieldActive: 0
+  _shieldHealthPath: Shield
+  _shieldHealth: {fileID: 0}
+  _shieldColliderPath: Shield/Collider
+  _shieldCollider: {fileID: 0}
+  _shieldMeshPath: Shield/Meshes/Mesh
+  _shieldMesh: {fileID: 0}
+  _shieldHealthLayerPath: Shield/Collider
+  _shieldHealthLayer: {fileID: 0}
+  _shieldMeshFadeName: _FadeMultiplier
+  _fadeMultiplier: 4.56
+  _shieldAnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _regenerationTimer:
+    _active: 0
+    _length: 3
+    _currentTime: 0
+    _direction: 0
+    _autoReset: 0
+    _autoDisable: 1
+    OnChangeTime:
+      m_PersistentCalls:
+        m_Calls: []
+    OnElapsed:
+      m_PersistentCalls:
+        m_Calls: []
+    OnLow:
+      m_PersistentCalls:
+        m_Calls: []
+    OnHigh:
+      m_PersistentCalls:
+        m_Calls: []
+  OnDeactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnActivated:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRegenerating:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Force Field
+  m_Shader: {fileID: 4800000, guid: 3f8cf3f4f36513549858f8b50647c342, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Gradient
+      second:
+        m_Texture: {fileID: 2800000, guid: 323986f48918c0a48a7e2c00ec8695fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Main
+      second:
+        m_Texture: {fileID: 2800000, guid: 323986f48918c0a48a7e2c00ec8695fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 634fa1b7c1fd33c45a4f08ba33bb2228, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_7296
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8694
+      second:
+        m_Texture: {fileID: 2800000, guid: 634fa1b7c1fd33c45a4f08ba33bb2228, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8845
+      second:
+        m_Texture: {fileID: 2800000, guid: 323986f48918c0a48a7e2c00ec8695fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: PixelSnap
+      second: 0
+    - first:
+        name: _Amplitude
+      second: 2
+    - first:
+        name: _AmplitudeOffset
+      second: 1
+    - first:
+        name: _AmplitudeSpeed
+      second: 0
+    - first:
+        name: _Blend
+      second: 2
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _Distortion
+      second: 1.09
+    - first:
+        name: _DstBlend
+      second: 10
+    - first:
+        name: _EdgeFade
+      second: 0
+    - first:
+        name: _Frequency
+      second: 69.1125
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _HeightFade
+      second: 0.2
+    - first:
+        name: _HorizontalFade
+      second: 1
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _Lighting
+      second: -0.19
+    - first:
+        name: _LinePinch
+      second: 2
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 2
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Rate
+      second: 97.9
+    - first:
+        name: _Rate2
+      second: 1.265
+    - first:
+        name: _Scale
+      second: 0.243
+    - first:
+        name: _Speed
+      second: 0.77
+    - first:
+        name: _SrcBlend
+      second: 5
+    - first:
+        name: _UVDistortion
+      second: 0.5
+    - first:
+        name: _UVScale
+      second: 0.18
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _VertexOffset
+      second: 0.1
+    - first:
+        name: _ZPhase
+      second: 1.19
+    - first:
+        name: _ZWrite
+      second: 0
+    - first:
+        name: _node_82
+      second: 0.001
+    - first:
+        name: _node_8517
+      second: 2
+    m_Colors:
+    - first:
+        name: _BackgroundColor
+      second: {r: 0.103031, g: 0.19530854, b: 0.197, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmisColor
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _PrimaryColor
+      second: {r: 0, g: 1.1015173, b: 1.3200002, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 1, g: 1, b: 1, a: 0}

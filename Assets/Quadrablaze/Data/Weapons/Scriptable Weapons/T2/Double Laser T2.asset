@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c6dc3cacfed1674b8a54e03d44b8eab, type: 3}
+  m_Name: Double Laser T2
+  m_EditorClassIdentifier: 
+  _properties:
+    originalProjectile: {fileID: 11400000, guid: 3f835055a452a9c43a5d5280fa053426,
+      type: 2}
+    maxProjectileDuration: 1
+    projectilesPerShot: 5
+    shotsPerSecond: 1
+    spreadAngle: 120
+    spreadType: 0
+    spreadAmplitude: 1
+    spreadFrequency: 0
+    startAngularVelocity: 0
+    startAcceleration: 30

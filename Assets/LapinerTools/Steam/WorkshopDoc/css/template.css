@@ -1,0 +1,11 @@
+/* code */
+code {
+  font-family:Verdana, Arial;
+  letter-spacing:1px;
+  margin:25px 0 25px 0px;
+  display:block;
+  font-size:0.9em;
+  border-left:4px solid #7e7e7e;
+  padding:15px 10px;
+  background-color: #e0e0e0;
+}

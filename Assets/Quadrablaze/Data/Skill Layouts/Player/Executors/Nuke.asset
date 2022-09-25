@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a26eed5134d8cb4fbedd0cfef064db3, type: 3}
+  m_Name: Nuke
+  m_EditorClassIdentifier: 
+  _skillLayoutElementIndex: -1
+  _rangeCurve: {fileID: 11400000, guid: 72f6b5129ec2ecc448926038bf826910, type: 2}
+  _repeatDelayCurve: {fileID: 11400000, guid: 6f03113c17beaa94d9566d0e97e55c25, type: 2}
+  _repeatVariationCurve: {fileID: 11400000, guid: dfab24579f3404848b3035c3d40dd9bc,
+    type: 2}
+  nextExplosion: 0

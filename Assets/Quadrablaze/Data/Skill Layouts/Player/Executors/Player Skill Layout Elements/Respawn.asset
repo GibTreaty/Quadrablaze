@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e67a5ff6c715042996188e57eb5cd7, type: 3}
+  m_Name: Respawn
+  m_EditorClassIdentifier: 
+  _skillIcon: {fileID: 21300000, guid: 3407e8b60bf00ad4f9d7c1633ce9ac2d, type: 3}
+  _createsExecutor: {fileID: 11400000, guid: b458f538860fc8f49b0216ecc4cb8ad5, type: 2}
+  _baseLevel: 0
+  _baseModifier: 0
+  _baseSkillAmount: 0
+  _levelCap: 6
+  _modifier: 0
+  _skillModifierType: 1
+  _setSkillAmounts: []
+  _levelDescriptions:
+  - Respawn with a 6 minute cooldown
+  - Respawn with a 5 minute cooldown
+  - Respawn with a 4 minute cooldown
+  - Respawn with a 3 minute cooldown
+  - Respawn with a 2 minute cooldown
+  - Respawn with a 1 minute cooldown

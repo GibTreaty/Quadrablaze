@@ -1,0 +1,679 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3bdcb0329c421c46b2a9242337d6aaa, type: 3}
+  m_Name: Keyboard Glyphs
+  m_EditorClassIdentifier: 
+  _deviceType: 0
+  _controllerDataFile: {fileID: 11400000, guid: d21d2b20df8369642b76aafbb2576ba7,
+    type: 2}
+  _joystick: {fileID: 0}
+  _joystickTemplate: {fileID: 0}
+  _buttonGlyphs:
+  - name: None
+    elementIdentifierId: 0
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Backspace
+    elementIdentifierId: 8
+    icon: {fileID: 21300000, guid: 53f7dbeb25261da409f5c230d76b2a00, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Tab
+    elementIdentifierId: 9
+    icon: {fileID: 21300000, guid: f10f07e7d5493f1418c2abd8af54b5f8, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Clear
+    elementIdentifierId: 12
+    icon: {fileID: 21300000, guid: 0e34a75d2f7ce754ca2e4b4f1efa6e02, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Return
+    elementIdentifierId: 13
+    icon: {fileID: 21300000, guid: 7024d4b6158f0ba48a08bdbbe9ec71c0, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Pause
+    elementIdentifierId: 19
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Escape
+    elementIdentifierId: 27
+    icon: {fileID: 21300000, guid: 49726fe899ff0e54dbd7c11d1e87a4fe, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Space
+    elementIdentifierId: 32
+    icon: {fileID: 21300000, guid: 63203515e3a181847b7fe9bf772aaae2, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Exclaim
+    elementIdentifierId: 33
+    icon: {fileID: 21300000, guid: 0cd6cf9a593d49b4c8c04f53b5bd1c7a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: DoubleQuote
+    elementIdentifierId: 34
+    icon: {fileID: 21300000, guid: dd45315eeb5c71d4d8da02fe079401ca, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Hash
+    elementIdentifierId: 35
+    icon: {fileID: 21300000, guid: dbe82444ec8b4e14da6ee1f2e8433a20, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Dollar
+    elementIdentifierId: 36
+    icon: {fileID: 21300000, guid: f74861e8188b2724bad48636b87adc7a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Ampersand
+    elementIdentifierId: 38
+    icon: {fileID: 21300000, guid: ea34d274afde7cb45b970dcdfa86c60a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Quote
+    elementIdentifierId: 39
+    icon: {fileID: 21300000, guid: dd45315eeb5c71d4d8da02fe079401ca, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: LeftParen
+    elementIdentifierId: 40
+    icon: {fileID: 21300000, guid: e64adc741af748c48bb460b362bebae7, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: RightParen
+    elementIdentifierId: 41
+    icon: {fileID: 21300000, guid: 89f2d20a590789b4d917aacba883a944, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Asterisk
+    elementIdentifierId: 42
+    icon: {fileID: 21300000, guid: a26cda2e61234ab45884a694cc31f134, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Plus
+    elementIdentifierId: 43
+    icon: {fileID: 21300000, guid: 510126b025531ed46a7128d2ff52f511, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Comma
+    elementIdentifierId: 44
+    icon: {fileID: 21300000, guid: add0027e8136e634591fb3c50e027c1f, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Minus
+    elementIdentifierId: 45
+    icon: {fileID: 21300000, guid: 020f23595bb0f364c9ec2ba5ec0a318b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Period
+    elementIdentifierId: 46
+    icon: {fileID: 21300000, guid: 0e9ad2b53d464034aab95bdaaf078c7b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Slash
+    elementIdentifierId: 47
+    icon: {fileID: 21300000, guid: 54c18c70adf56a046a9777c8622bf1c7, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha0
+    elementIdentifierId: 48
+    icon: {fileID: 21300000, guid: 5abb6030e249e4449aac72428d4f0553, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha1
+    elementIdentifierId: 49
+    icon: {fileID: 21300000, guid: 0cd6cf9a593d49b4c8c04f53b5bd1c7a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha2
+    elementIdentifierId: 50
+    icon: {fileID: 21300000, guid: ed43eea0a12721d4799827e64b1a9487, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha3
+    elementIdentifierId: 51
+    icon: {fileID: 21300000, guid: dbe82444ec8b4e14da6ee1f2e8433a20, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha4
+    elementIdentifierId: 52
+    icon: {fileID: 21300000, guid: f74861e8188b2724bad48636b87adc7a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha5
+    elementIdentifierId: 53
+    icon: {fileID: 21300000, guid: 6266f47cb72bda0418fea5738f85f816, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha6
+    elementIdentifierId: 54
+    icon: {fileID: 21300000, guid: d65819fb8d5ffb943b62ddd2fcec0633, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha7
+    elementIdentifierId: 55
+    icon: {fileID: 21300000, guid: ea34d274afde7cb45b970dcdfa86c60a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha8
+    elementIdentifierId: 56
+    icon: {fileID: 21300000, guid: a0ed21cc16883cc418de8f0443059009, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Alpha9
+    elementIdentifierId: 57
+    icon: {fileID: 21300000, guid: e2dd5b899a8364d4380f3aed0c7ae574, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Colon
+    elementIdentifierId: 58
+    icon: {fileID: 21300000, guid: dd45315eeb5c71d4d8da02fe079401ca, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Semicolon
+    elementIdentifierId: 59
+    icon: {fileID: 21300000, guid: b23a59a831cbe5343923a78ab833c11a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Less
+    elementIdentifierId: 60
+    icon: {fileID: 21300000, guid: add0027e8136e634591fb3c50e027c1f, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Equals
+    elementIdentifierId: 61
+    icon: {fileID: 21300000, guid: 510126b025531ed46a7128d2ff52f511, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Greater
+    elementIdentifierId: 62
+    icon: {fileID: 21300000, guid: 0e9ad2b53d464034aab95bdaaf078c7b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Question
+    elementIdentifierId: 63
+    icon: {fileID: 21300000, guid: 97e91a372ed1db0498bceeb6277c33ab, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: At
+    elementIdentifierId: 64
+    icon: {fileID: 21300000, guid: ed43eea0a12721d4799827e64b1a9487, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: LeftBracket
+    elementIdentifierId: 91
+    icon: {fileID: 21300000, guid: e64adc741af748c48bb460b362bebae7, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Backslash
+    elementIdentifierId: 92
+    icon: {fileID: 21300000, guid: 54c18c70adf56a046a9777c8622bf1c7, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: RightBracket
+    elementIdentifierId: 93
+    icon: {fileID: 21300000, guid: 89f2d20a590789b4d917aacba883a944, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Caret
+    elementIdentifierId: 94
+    icon: {fileID: 21300000, guid: d65819fb8d5ffb943b62ddd2fcec0633, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Underscore
+    elementIdentifierId: 95
+    icon: {fileID: 21300000, guid: 020f23595bb0f364c9ec2ba5ec0a318b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: BackQuote
+    elementIdentifierId: 96
+    icon: {fileID: 21300000, guid: a6ecd30849b81474fb68b3a93fcfd35e, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: A
+    elementIdentifierId: 97
+    icon: {fileID: 21300000, guid: 88a8e1151acb21040acad54b61681b06, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: B
+    elementIdentifierId: 98
+    icon: {fileID: 21300000, guid: e3636112cf0417644b6dd8ef38c17476, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: C
+    elementIdentifierId: 99
+    icon: {fileID: 21300000, guid: a813065316406f646bac92d3e8c75929, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: D
+    elementIdentifierId: 100
+    icon: {fileID: 21300000, guid: d1526235e6d51c0458bcd8572dbae9ba, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: E
+    elementIdentifierId: 101
+    icon: {fileID: 21300000, guid: 0733779d1d5242a4ebda07785f34e102, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F
+    elementIdentifierId: 102
+    icon: {fileID: 21300000, guid: 35eabb76b5384aa4db5ce23c34b9a328, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: G
+    elementIdentifierId: 103
+    icon: {fileID: 21300000, guid: ca2e9f0117cbb234aa51991a2ef46700, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: H
+    elementIdentifierId: 104
+    icon: {fileID: 21300000, guid: 215d7c2a0ddb20542a615301023d6a97, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: I
+    elementIdentifierId: 105
+    icon: {fileID: 21300000, guid: 1fed71e963c9b5a4586d0d4903fd70ef, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: J
+    elementIdentifierId: 106
+    icon: {fileID: 21300000, guid: 9ea8bd13a8ad69642a524dab8b809e16, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: K
+    elementIdentifierId: 107
+    icon: {fileID: 21300000, guid: 9da3c1725130fbc47bf35d70dad9cbe2, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: L
+    elementIdentifierId: 108
+    icon: {fileID: 21300000, guid: 7ee4d90dc50397e49b54fda0b1404339, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: M
+    elementIdentifierId: 109
+    icon: {fileID: 21300000, guid: c2712235b2878974ea36aba31899d8c0, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: N
+    elementIdentifierId: 110
+    icon: {fileID: 21300000, guid: bf5d7b5095b347644af0d496e60b9c9e, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: O
+    elementIdentifierId: 111
+    icon: {fileID: 21300000, guid: 8521a33de379f294693e85623c3f958e, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: P
+    elementIdentifierId: 112
+    icon: {fileID: 21300000, guid: 7c1720a01d0af3f4180a30a6961ac717, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Q
+    elementIdentifierId: 113
+    icon: {fileID: 21300000, guid: bca6d224bbad1de49b83694cf38bd1c8, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: R
+    elementIdentifierId: 114
+    icon: {fileID: 21300000, guid: 3890f227a38c86f418752a37451157ff, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: S
+    elementIdentifierId: 115
+    icon: {fileID: 21300000, guid: 457706072910c1047ae182d8432e5d48, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: T
+    elementIdentifierId: 116
+    icon: {fileID: 21300000, guid: 0215b7dcb4c6f5e48ab82a146253ecc1, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: U
+    elementIdentifierId: 117
+    icon: {fileID: 21300000, guid: 7de286dac23655b4b9ecf6ab7ef4f334, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: V
+    elementIdentifierId: 118
+    icon: {fileID: 21300000, guid: aa1c580f936ba6142a52b7b984257502, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: W
+    elementIdentifierId: 119
+    icon: {fileID: 21300000, guid: 2ed320e4d2dc89b4bbad2bc69257d389, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: X
+    elementIdentifierId: 120
+    icon: {fileID: 21300000, guid: e585fce3f914c5c4d9f83b1f666c98a6, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Y
+    elementIdentifierId: 121
+    icon: {fileID: 21300000, guid: e22cda8eeab4448438f3e8d81789c0cc, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Z
+    elementIdentifierId: 122
+    icon: {fileID: 21300000, guid: 1deb7720d67b848448fb7c955962527c, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Delete
+    elementIdentifierId: 127
+    icon: {fileID: 21300000, guid: 0e34a75d2f7ce754ca2e4b4f1efa6e02, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad0
+    elementIdentifierId: 256
+    icon: {fileID: 21300000, guid: 5abb6030e249e4449aac72428d4f0553, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad1
+    elementIdentifierId: 257
+    icon: {fileID: 21300000, guid: 0cd6cf9a593d49b4c8c04f53b5bd1c7a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad2
+    elementIdentifierId: 258
+    icon: {fileID: 21300000, guid: ed43eea0a12721d4799827e64b1a9487, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad3
+    elementIdentifierId: 259
+    icon: {fileID: 21300000, guid: dbe82444ec8b4e14da6ee1f2e8433a20, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad4
+    elementIdentifierId: 260
+    icon: {fileID: 21300000, guid: f74861e8188b2724bad48636b87adc7a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad5
+    elementIdentifierId: 261
+    icon: {fileID: 21300000, guid: 6266f47cb72bda0418fea5738f85f816, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad6
+    elementIdentifierId: 262
+    icon: {fileID: 21300000, guid: d65819fb8d5ffb943b62ddd2fcec0633, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad7
+    elementIdentifierId: 263
+    icon: {fileID: 21300000, guid: ea34d274afde7cb45b970dcdfa86c60a, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad8
+    elementIdentifierId: 264
+    icon: {fileID: 21300000, guid: a0ed21cc16883cc418de8f0443059009, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Keypad9
+    elementIdentifierId: 265
+    icon: {fileID: 21300000, guid: e2dd5b899a8364d4380f3aed0c7ae574, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: KeypadPeriod
+    elementIdentifierId: 266
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: KeypadDivide
+    elementIdentifierId: 267
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: KeypadMultiply
+    elementIdentifierId: 268
+    icon: {fileID: 21300000, guid: a26cda2e61234ab45884a694cc31f134, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: KeypadMinus
+    elementIdentifierId: 269
+    icon: {fileID: 21300000, guid: 020f23595bb0f364c9ec2ba5ec0a318b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: KeypadPlus
+    elementIdentifierId: 270
+    icon: {fileID: 21300000, guid: a0673952ae94ab649b0720ba39001cd2, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: KeypadEnter
+    elementIdentifierId: 271
+    icon: {fileID: 21300000, guid: 25345dd722db9ee49958f87131e29870, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: KeypadEquals
+    elementIdentifierId: 272
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: UpArrow
+    elementIdentifierId: 273
+    icon: {fileID: 21300000, guid: fa9ab973c4a99214d8316b74d1c81cd2, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: DownArrow
+    elementIdentifierId: 274
+    icon: {fileID: 21300000, guid: 04e000b8e889f914887ccb476493bfa9, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: RightArrow
+    elementIdentifierId: 275
+    icon: {fileID: 21300000, guid: d4b8852348ad2fa44b1fe135f11a0de1, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: LeftArrow
+    elementIdentifierId: 276
+    icon: {fileID: 21300000, guid: 255acbd6a2cb4de45b8c7f1d70d7e12c, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Insert
+    elementIdentifierId: 277
+    icon: {fileID: 21300000, guid: b46cc9d75f3039b4890713f4e98b4276, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Home
+    elementIdentifierId: 278
+    icon: {fileID: 21300000, guid: 9baf9bf045a7590429c5c30c42b902f5, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: End
+    elementIdentifierId: 279
+    icon: {fileID: 21300000, guid: 98d697ae370dae7438d24badc5a4a7f6, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: PageUp
+    elementIdentifierId: 280
+    icon: {fileID: 21300000, guid: 6d54d17d689b7ab49a17a85f9bef7ff9, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: PageDown
+    elementIdentifierId: 281
+    icon: {fileID: 21300000, guid: 202edbb50aa9f21419240ee4bec30651, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F1
+    elementIdentifierId: 282
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F2
+    elementIdentifierId: 283
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F3
+    elementIdentifierId: 284
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F4
+    elementIdentifierId: 285
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F5
+    elementIdentifierId: 286
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F6
+    elementIdentifierId: 287
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F7
+    elementIdentifierId: 288
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F8
+    elementIdentifierId: 289
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F9
+    elementIdentifierId: 290
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F10
+    elementIdentifierId: 291
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F11
+    elementIdentifierId: 292
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F12
+    elementIdentifierId: 293
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F13
+    elementIdentifierId: 294
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F14
+    elementIdentifierId: 295
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: F15
+    elementIdentifierId: 296
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Numlock
+    elementIdentifierId: 300
+    icon: {fileID: 21300000, guid: 363cf05970b8c934b861bea5e443264b, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: CapsLock
+    elementIdentifierId: 301
+    icon: {fileID: 21300000, guid: 0d8140fa96d44fc4d89e41812fa47f99, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: ScrollLock
+    elementIdentifierId: 302
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: RightShift
+    elementIdentifierId: 303
+    icon: {fileID: 21300000, guid: 426e2f5769e4f5c458005b06d93bf3dc, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: LeftShift
+    elementIdentifierId: 304
+    icon: {fileID: 21300000, guid: e334f0f794089824da3cc51c8ab29c0c, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: RightControl
+    elementIdentifierId: 305
+    icon: {fileID: 21300000, guid: 2b1d6149eec758f4cacc453d7ab8957f, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: LeftControl
+    elementIdentifierId: 306
+    icon: {fileID: 21300000, guid: 2b1d6149eec758f4cacc453d7ab8957f, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: RightAlt
+    elementIdentifierId: 307
+    icon: {fileID: 21300000, guid: ba954f528ca67f44d84caf72cf1185dd, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: LeftAlt
+    elementIdentifierId: 308
+    icon: {fileID: 21300000, guid: ba954f528ca67f44d84caf72cf1185dd, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: RightCommand
+    elementIdentifierId: 309
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: LeftCommand
+    elementIdentifierId: 310
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: LeftWindows
+    elementIdentifierId: 311
+    icon: {fileID: 21300000, guid: 681e0bfbcac10e74ca36a026584e577c, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: RightWindows
+    elementIdentifierId: 312
+    icon: {fileID: 21300000, guid: 681e0bfbcac10e74ca36a026584e577c, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: AltGr
+    elementIdentifierId: 313
+    icon: {fileID: 21300000, guid: ba954f528ca67f44d84caf72cf1185dd, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Help
+    elementIdentifierId: 315
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Print
+    elementIdentifierId: 316
+    icon: {fileID: 21300000, guid: 8464dfc8ae8ff6c4aac565af50509275, type: 3}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: SysReq
+    elementIdentifierId: 317
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Break
+    elementIdentifierId: 318
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}
+  - name: Menu
+    elementIdentifierId: 319
+    icon: {fileID: 0}
+    iconPositive: {fileID: 0}
+    iconNegative: {fileID: 0}

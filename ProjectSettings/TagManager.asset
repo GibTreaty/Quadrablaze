@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Camera Rig
+  - Projectile
+  - Weapon
+  - Enemy
+  - Menu Control
+  - Unrespawnable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - Cursor Plane
+  - Small Projectile
+  - Large Projectile
+  - Force Field
+  - World
+  - EntityToWorld
+  - Mine
+  - Shield
+  - Triformer
+  - Enemy Shield
+  - Player Deployable
+  - Boss Hit Spot
+  - Skysphere
+  - Ship Render
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: HUD
+    uniqueID: 4101831701
+    locked: 0
+  - name: Dropdown UI
+    uniqueID: 1090641299
+    locked: 0
+  - name: Overscreen Effects
+    uniqueID: 2674354491
+    locked: 0
